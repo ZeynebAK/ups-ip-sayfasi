@@ -23,3 +23,4 @@ upsIPs.forEach((ip, index) => {
 function goToIP(ip) {
   window.open(`http://${ip}`, '_blank');
 }
+*/
