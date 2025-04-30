@@ -1,11 +1,13 @@
 window.onload = function () {
+ 
   const upsIPs = [
-    '192.168.1.10',
-    '192.168.1.11',
-    '192.168.1.12',
-    '192.168.1.13',
-    '192.168.1.14'
-    
+    '192.168.1.25',
+    '192.168.2.10',
+    '10.0.0.5',
+    '172.16.4.7',
+    '192.168.100.15',
+    '192.168.50.3',
+   
   ];
 
   const container = document.getElementById('buttonContainer');
@@ -20,6 +22,7 @@ window.onload = function () {
     container.appendChild(button);
   });
 };
+
 
 /*
 function goToIP(ip) {
