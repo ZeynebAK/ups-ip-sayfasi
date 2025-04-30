@@ -1,4 +1,3 @@
-
 window.onload = function () {
   const upsIPs = [
     '192.168.1.10',
