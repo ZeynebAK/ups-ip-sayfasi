@@ -1,4 +1,3 @@
 function goToIP(ip) {
-    window.location.href = `http://${ip}`;
-  }
-  
+  window.open(`http://${ip}`, '_blank');
+}
